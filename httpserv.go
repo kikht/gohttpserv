@@ -15,7 +15,7 @@ import (
 var (
 	Config  = flag.String("config", "", "Configuration file")
 	Socket  = flag.String("socket", "tcp", "Network socket to use (tcp/unix)")
-	Addr    = flag.String("addr", ":8080", "Address to listen / socket filename")
+	Addr    = flag.String("addr", ":5000", "Address to listen / socket filename")
 	Proto   = flag.String("proto", "http", "Protocol to use (http/fcgi)")
 	Logfile = flag.String("logfile", "", "Log file path")
 )
